@@ -88,8 +88,8 @@ This project will be deployed using **Render** for the backend and **Vercel** fo
 
 ## 📬 Contact
 
-* GitHub: [@yourusername](https://github.com/TriparnaR)
-* Email: [yourname@email.com](mailto:triparnaroy991@email.com)
+* GitHub: [@TriparnaR](https://github.com/TriparnaR)
+* Email: [triparnaroy991@gmail.com@email.com](mailto:triparnaroy991@email.com)
 
 ````
 
