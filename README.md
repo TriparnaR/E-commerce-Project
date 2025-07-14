@@ -1,47 +1,96 @@
-# MERN E-COMMERCE TUTORIAL
+## MERN Ecommerce Application
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+This is a fully functional **Ecommerce Web Application** built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
 
-# Prerequisite
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
 
-# Install Dependencies
+---
 
-**For Backend** - `npm i`
+## 🔧 Tech Stack
 
-**For Frontend** - `cd frontend` ` npm i`
+- **Frontend**: React.js, Redux Toolkit, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
 
-## Env Variables
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
+---
 
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
+## 🚀 Features
 
-## Author
+- User Registration and Login (JWT)
+- Product Listings with Search and Filters
+- Admin Dashboard
+- Order Management
+- Secure Payments Integration
+- Cart and Wishlist Functionality
+- Product Reviews and Ratings
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+---
+
+## 📁 Folder Structure
+
+```
+
+mernProjectEcommerce/
+├── backend/
+├── frontend/
+├── README.md
+├── package.json
+
+````
+
+---
+
+## 🛠️ How to Run Locally
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/YOUR_USERNAME/mernProjectEcommerce.git
+cd mernProjectEcommerce
+````
+
+### 2. Install dependencies for both frontend and backend
+
+```bash
+cd backend
+npm install
+
+cd ../frontend
+npm install
+```
+
+### 3. Create a `.env` file in backend
+
+```env
+PORT=4000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+### 4. Run the app
+
+```bash
+# In backend
+npm run dev
+
+# In frontend (new terminal)
+npm start
+```
+
+---
+
+## 📦 Deployment Coming Soon
+
+This project will be deployed using **Render** for the backend and **Vercel** for the frontend.
+
+---
+
+
+## 📬 Contact
+
+* GitHub: [@yourusername](https://github.com/TriparnaR)
+* Email: [yourname@email.com](mailto:triparnaroy991@email.com)
+
+````
+
+
